@@ -33,3 +33,6 @@ class GameStateMachine:
 
     def is_state_final(self) -> bool:
         return self.current_state.final
+
+    def is_first_player_win(self):
+        return self.current_state == GameStateMachine.first_player_win
