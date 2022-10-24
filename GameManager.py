@@ -1,6 +1,6 @@
 from GameController import GameController
 from StateMachine import GameStateMachine
-from StepProcessor import StepService
+from StepService import StepService
 
 
 class GameManager:
